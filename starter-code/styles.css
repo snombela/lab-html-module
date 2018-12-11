@@ -1,5 +1,82 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+  * {
     margin: 0;
     padding: 0;
-    
+  }
+
+  body {
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    line-height: 3.5em;
+    font-weight: 300;
+  }
+
+  h1, h2 {
+    font-weight: bold;
+  }
+
+  h1 {
+      font-size: 4em;
+      line-height: 1.5em;
+  }
+
+  h2 {
+      font-size: 3em;
+  }
+
+  h3 {
+      font-size: 2.2em;
+      text-align: center;
+  }
+
+  nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 100px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .header {
+      background-image: url("images/city-scape.svg");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      color:white;
+  }
+
+  .dark-background {
+      background-color: rgb(39, 53, 71);
+      color: white;
+  }
+
+  .collaboration img{
+      width: 450px;
+  }
+
+  .npm-section {
+      background-image: url("images/forklift.svg");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      height: 500px;
   }
