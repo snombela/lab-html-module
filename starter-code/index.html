@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <nav>
+  <nav class="clearfix"> 
     <div class="top-left">
       <a class = "heart" href="#">♥︎</a>
       <span class="acronym">Neophobe Plebeian Mumpsimus</span>
@@ -23,15 +23,25 @@
   </nav>
 
   <header class="header">
-
+    <div class="search-container">
+    
+      <img src="images/npm-logo.png" alt="npm logo" class="search-container-img-npm">
+      <input type="text" placeholder="find packages">
+      <a href="#">Sign up</a> or <a href="#">log in </a> <img src="images/bear-logo.png" alt="Bear logo" class="search-container-img-bear ">
+    
+    </div>
+  
+    <div class="text-building">
     <h1>Build amazing things</h1>
     <p>npm is the package manager for JavaScript and the world’s largest software registry. 
       Discover packages of reusable code — and assemble them in powerful new ways.</p>
-      <a href="#">Sign up for npm</a>
+      <a href="#" class="button yellow-button">Sign up for npm</a>
+    </div>
   </header>
+
   <section id="collaboration" class="dark-background collaboration">
     <img src="images/collaboration.svg" alt="Group of people">
-    <div>
+    <div class="text-collaboration">
       <h2>npm Orgs is powerful collaboration — for free</h2>
       <ul>
         <li>Encourage code discovery and re-use within teams</li>
@@ -39,7 +49,7 @@
         <li>Manage public and private code with the same workflow</li>
       </ul>
        
-      <a href="#">Sign up for Orgs</a> 
+      <a href="#" class="button red-button ">Sign up for Orgs</a> 
       <p>or, <a href="#">Learn more about Orgs</a> </p>
     </div>
   </section>
@@ -48,7 +58,7 @@
     <h2>What is nmp?</h2>
     <p>Use npm to install, share, and distribute code; 
       manage dependencies in your projects; and share & receive feedback with other</p>
-    <a href="#">Install npm</a>
+    <a href="#" class="button blue-button">Install npm</a>
   </section>
 
   <section id="packages">

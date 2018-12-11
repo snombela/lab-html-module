@@ -30,11 +30,14 @@
       text-align: center;
   }
 
+  /***NAV BAR***/
+
   nav {
     background-color: #C12127;
     color: rgba(255,255,255,0.8);
     padding-top: 15px;
     height: 100px;
+    
   }
   
   nav a {
@@ -54,6 +57,40 @@
     margin: 0 10px;
   }
 
+  .top-left{
+      float: left;
+  }
+
+
+  /***SEARCH BAR***/
+  .search-container-img-npm {
+      width: 80px;
+      margin: 0 7px;
+  }
+
+  .search-container-img-bear {
+    width: 40px;
+    margin: 1px auto;
+    
+  }
+
+  .search-container a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .search-container input {
+    border: white;
+    background-color: rgb(31, 82, 111);
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    padding: 15px;
+    margin: 0 5px;
+  }
+
+  /***HEADER***/
+
   .header {
       background-image: url("images/city-scape.svg");
       background-position: 0 0;
@@ -63,14 +100,30 @@
       color:white;
   }
 
+  .header .text-building {
+      margin: 0 auto;
+      width: 0 auto;
+  }
+
+  /***COLLABORATION SECTION***/
+
   .dark-background {
       background-color: rgb(39, 53, 71);
       color: white;
+      height: 600px;
   }
 
   .collaboration img{
       width: 450px;
+      
   }
+
+  .text-collaboration {
+      float: right;
+      height: 100px;
+      
+  }
+/***NPM SECTION***/
 
   .npm-section {
       background-image: url("images/forklift.svg");
@@ -79,4 +132,41 @@
       background-size: cover;
       color: white;
       height: 500px;
+  }
+
+  service-box {
+      text-align: center;
+  }
+
+  service-box img{
+      width: 125px;
+  }
+
+  /***BUTTONS***/
+  .button {
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size:1em;
+    letter-spacing:0.3px; 
+    text-align: center;
+    text-decoration:none;
+    display: block;
+    width: 150px;
+    margin: 10px auto 0 auto;
+    padding: 2px;
+    border: 2px black solid 0.2;
+    border-radius: 50px;
+    
+  }
+
+  .red-button {
+      background-color: rgb(203, 56, 55);
+  }
+
+  .yellow-button {
+      background-color: rgb(240, 146, 51);
+  }
+
+  .blue-button {
+      background-color: rgb(49, 68, 88);
   }
