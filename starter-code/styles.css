@@ -30,6 +30,10 @@
       text-align: center;
   }
 
+  p {
+      font-size: 1.25em;
+  }
+
   /***NAV BAR***/
 
   nav {
@@ -101,8 +105,8 @@
   }
 
   .header .text-building {
-      margin: 0 auto;
-      width: 0 auto;
+      margin: 0% 5% 5% 17%;
+      width: 30%;
   }
 
   /***COLLABORATION SECTION***/
@@ -115,12 +119,19 @@
 
   .collaboration img{
       width: 450px;
-      
+      margin: 10% 0 10% 10%;
+  }
+
+  .collaboration a {
+      text-decoration: none;
+      color: white;
   }
 
   .text-collaboration {
       float: right;
       height: 100px;
+      width: 40%;
+      margin: 10% 10% 10% 0;
       
   }
 /***NPM SECTION***/
@@ -132,6 +143,7 @@
       background-size: cover;
       color: white;
       height: 500px;
+      position: relative;
   }
 
   service-box {
@@ -141,6 +153,56 @@
   service-box img{
       width: 125px;
   }
+
+  .text-npm{
+      position: absolute;
+      width: 40%;
+      margin: 8% 5% 5% 10%;
+      text-align: left;
+  }
+
+  /***PACKAGES SECTION***/
+  .packages-text {
+    padding: 3%;
+    text-align: center;
+    line-height: 5em;
+  }
+
+  .packages-text h2 {
+    color: rgb(83, 88, 98);
+  }
+
+  .packages-text p {
+      color: rgb(135, 145, 156);
+  }
+
+  .col {
+    float: left;
+  }
+  
+  .col-3 {
+    width: 30%;
+  }
+  
+  .col-middle {
+    margin: 0 5%;
+  } 
+
+  .service-box {
+    text-align: center;
+    padding: 2%;
+  }
+
+  .service-box a {
+    text-decoration: none;
+    color: rgb(208, 74, 73)
+  }
+
+  .clearfix {
+      clear: both;
+  }
+
+
 
   /***BUTTONS***/
   .button {
@@ -161,12 +223,15 @@
 
   .red-button {
       background-color: rgb(203, 56, 55);
-  }
+      
+  } 
 
   .yellow-button {
       background-color: rgb(240, 146, 51);
+      float: left;
   }
 
   .blue-button {
       background-color: rgb(49, 68, 88);
+      float: left
   }
