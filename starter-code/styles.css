@@ -8,30 +8,32 @@
   body {
     font-family: 'Source Sans Pro';
     font-size: 15px;
-    line-height: 3.5em;
     font-weight: 300;
   }
 
   h1, h2 {
     font-weight: bold;
+    padding: 8% 0;
   }
 
   h1 {
       font-size: 4em;
-      line-height: 1.5em;
+      line-height: 1.2em;
   }
 
   h2 {
       font-size: 3em;
+      line-height: 1em;
   }
 
   h3 {
-      font-size: 2.2em;
+      font-size: 2em;
       text-align: center;
   }
 
   p {
       font-size: 1.25em;
+      line-height: 1.5em;
   }
 
   /***NAV BAR***/
@@ -39,8 +41,8 @@
   nav {
     background-color: #C12127;
     color: rgba(255,255,255,0.8);
-    padding-top: 15px;
-    height: 100px;
+    padding-top: 5px;
+    height: 35px;
     
   }
   
@@ -63,6 +65,7 @@
 
   .top-left{
       float: left;
+      margin-left: 20px;
   }
 
 
@@ -96,6 +99,7 @@
   /***HEADER***/
 
   .header {
+      background-color:rgb(32, 101, 136);
       background-image: url("images/city-scape.svg");
       background-position: 0 0;
       background-repeat: no-repeat;
@@ -105,11 +109,21 @@
   }
 
   .header .text-building {
-      margin: 0% 5% 5% 17%;
+      
+      margin: 0 17%;
+      /*margin: 0% 5% 5% 17%;*/
       width: 30%;
+      
   }
 
+
+
   /***COLLABORATION SECTION***/
+
+  .center-img {
+      margin: 0 auto;
+      padding: 10%;
+  }
 
   .dark-background {
       background-color: rgb(39, 53, 71);
@@ -119,7 +133,7 @@
 
   .collaboration img{
       width: 450px;
-      margin: 10% 0 10% 10%;
+      float: left;
   }
 
   .collaboration a {
@@ -127,12 +141,15 @@
       color: white;
   }
 
+  .text-collaboration li {
+    font-size: 1.25em;
+    line-height: 3em;
+  }
+
   .text-collaboration {
       float: right;
       height: 100px;
-      width: 40%;
-      margin: 10% 10% 10% 0;
-      
+      width: 40%; 
   }
 /***NPM SECTION***/
 
@@ -146,18 +163,12 @@
       position: relative;
   }
 
-  service-box {
-      text-align: center;
-  }
-
-  service-box img{
-      width: 125px;
-  }
-
   .text-npm{
       position: absolute;
-      width: 40%;
-      margin: 8% 5% 5% 10%;
+      top: 20%;
+      left: 15%;
+      width: 30%;
+      /*margin: 8% 5% 5% 10%;*/
       text-align: left;
   }
 
