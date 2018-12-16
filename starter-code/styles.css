@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-  * {
+* {
     margin: 0;
     padding: 0;
-  }
+}
 
   body {
     font-family: 'Source Sans Pro';
@@ -11,21 +11,22 @@
   }
 
   h1, h2 {
-    padding: 8% 0;
+    padding: 30px 0;
   }
 
   h1 {
-      font-size: 4em;
+      font-size: 3.2em;
       line-height: 1.2em;
   }
 
   h2 {
-      font-size: 3em;
+      font-size: 2.8em;
       line-height: 1em;
   }
 
   h3 {
-      font-size: 2em;
+      font-size: 1.5em;
+      margin: 10px;
       text-align: center;
   }
 
@@ -116,79 +117,96 @@
 
   /***COLLABORATION SECTION***/
 
-  .center-img {
-      margin: 0 auto;
-      padding: 10%;
-  }
+.center-img {
+    margin: 60px auto;
+    width: 950px;
+    overflow: auto;
+}
 
-  .dark-background {
-      background-color: rgb(39, 53, 71);
-      color: white;
-      height: 600px;
-  }
+.dark-background {
+    background-color: rgb(39, 53, 71);
+    color: white;
+    overflow: auto;
+}
 
-  .collaboration img{
-      width: 450px;
-      float: left;
-  }
+.collaboration img{
+    width: 50%;
+    float: left;
+}
 
-  .collaboration a {
-      text-decoration: none;
-      color: white;
-  }
+.collaboration img{
+    width: 45%;
+    float: left;
+    margin-right: 5%; 
+}
 
-  .text-collaboration li {
+.collaboration .text-collaboration {
+    float: right;
+    width: 45%;
+    margin-left: 5%; 
+}
+
+.text-collaboration li {
     font-size: 1.25em;
-    line-height: 3em;
-  }
+    line-height: 2em;
+    margin-left: 25px;
+}
 
-  .text-collaboration {
-      float: right;
-      height: 100px;
-      width: 40%; 
-  }
+.collaboration a {
+    text-decoration: none;
+    color: white;
+}
+
 /***NPM SECTION***/
 
-  .npm-section {
-      background-image: url("images/forklift.svg");
-      background-position: 0 0;
-      background-repeat: no-repeat;
-      background-size: cover;
-      color: white;
-      height: 500px;
-      position: relative;
-  }
+.npm-section {
+    background-image: url("images/forklift.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: auto;
+}
 
-  .text-npm{
-      position: absolute;
-      top: 20%;
-      left: 15%;
-      width: 30%;
-      /*margin: 8% 5% 5% 10%;*/
-      text-align: left;
-  }
+.container-npm {
+    width: 950px;
+    margin: 130px auto;
+}
+
+.text-npm {
+    width: 45%;
+}
 
   /***PACKAGES SECTION***/
+
   .packages-text {
-    padding: 3%;
+    width: 950px;
+    margin: 30px auto;
     text-align: center;
-    line-height: 5em;
   }
 
   .packages-text h2 {
-    color: rgb(83, 88, 98);
-    
+    color: rgb(83, 88, 98);    
   }
 
   .packages-text p {
       color: rgb(135, 145, 156);
-      
+  }
+
+  .service-box {
+    width: 950px;
+    text-align: center;
+    margin: 60px auto;
+    overflow: auto;
+  }
+
+  .service-box a {
+    text-decoration: none;
+    color: rgb(208, 74, 73)
   }
 
   .col {
     float: left;
-    
-    
   }
   
   .col-3 {
@@ -198,16 +216,6 @@
   .col-middle {
     margin: 0 5%;
   } 
-
-  .service-box {
-    text-align: center;
-    padding: 2%;
-  }
-
-  .service-box a {
-    text-decoration: none;
-    color: rgb(208, 74, 73)
-  }
 
   .clearfix {
       clear: both;
@@ -225,16 +233,14 @@
     text-decoration:none;
     display: block;
     width: 150px;
-    margin: 10px auto 0 auto;
+    margin: 10px 0 0 0;
     padding: 10px 20px 10px 20px;
     border: 2px black solid 0.2;
     border-radius: 50px;
-    
   }
 
   .red-button {
       background-color: rgb(203, 56, 55);
-      
   } 
 
   .yellow-button {
@@ -244,5 +250,4 @@
 
   .blue-button {
       background-color: rgb(49, 68, 88);
-      float: left
   }
