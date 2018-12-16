@@ -8,11 +8,9 @@
   body {
     font-family: 'Source Sans Pro';
     font-size: 15px;
-    font-weight: 300;
   }
 
   h1, h2 {
-    font-weight: bold;
     padding: 8% 0;
   }
 
@@ -116,8 +114,6 @@
       
   }
 
-
-
   /***COLLABORATION SECTION***/
 
   .center-img {
@@ -181,18 +177,22 @@
 
   .packages-text h2 {
     color: rgb(83, 88, 98);
+    
   }
 
   .packages-text p {
       color: rgb(135, 145, 156);
+      
   }
 
   .col {
     float: left;
+    
+    
   }
   
   .col-3 {
-    width: 30%;
+     width: 30%;
   }
   
   .col-middle {
@@ -226,7 +226,7 @@
     display: block;
     width: 150px;
     margin: 10px auto 0 auto;
-    padding: 2px;
+    padding: 10px 20px 10px 20px;
     border: 2px black solid 0.2;
     border-radius: 50px;
     
