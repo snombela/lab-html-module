@@ -1,72 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
 * {
     margin: 0;
     padding: 0;
 }
 
-  body {
+body {
     font-family: 'Source Sans Pro';
     font-size: 15px;
-  }
+}
 
-  h1, h2 {
+h1, h2 {
     padding: 30px 0;
-  }
+}
 
-  h1 {
-      font-size: 3.2em;
-      line-height: 1.2em;
-  }
+h1 {
+    font-size: 3.2em;
+    line-height: 1.2em;
+}
 
-  h2 {
-      font-size: 2.8em;
-      line-height: 1em;
-  }
+h2 {
+    font-size: 2.8em;
+    line-height: 1em;
+}
 
-  h3 {
-      font-size: 1.5em;
-      margin: 10px;
-      text-align: center;
-  }
+h3 {
+    font-size: 1.5em;
+    margin: 10px;
+    text-align: center;
+}
 
-  p {
-      font-size: 1.25em;
-      line-height: 1.5em;
-  }
+p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
 
-  /***NAV BAR***/
+/***NAV BAR***/
 
-  nav {
+nav {
     background-color: #C12127;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     padding-top: 10px;
     height: 35px;
-    
-  }
-  
-  nav a {
-    color: rgba(255,255,255,0.8);
-    text-decoration: none;
-  }
+}
 
-  .top-links {
+nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.top-links {
     display: inline-block;
     float: right;
     padding: 0;
     margin: 0 20px 0 0;
-  }
-  
-  .top-links li {
+}
+
+.top-links li {
     display: inline-block;
     margin: 0 10px;
-  }
+}
 
-  .top-left{
-      float: left;
-      margin-left: 20px;
-  }
-
+.top-left {
+    float: left;
+    margin-left: 20px;
+}
 
 /***SEARCH BAR***/
 
@@ -99,7 +96,7 @@
     float: left;
     width: 10%;
     padding: 10px 2% 10px 3%;
-  }
+}
 
 .login-box a {
     text-decoration: none;
@@ -122,27 +119,25 @@
     width: 40px;
 }
 
-  /***HEADER***/
+/***HEADER***/
 
-  .header {
-      background-color:rgb(32, 101, 136);
-      background-image: url("images/city-scape.svg");
-      background-position: 0 0;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 600px;
-      color:white;
-  }
+.header {
+    background-color: rgb(32, 101, 136);
+    background-image: url("images/city-scape.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
 
-  .header .text-building {
-      
-      margin: 0 17%;
-      /*margin: 0% 5% 5% 17%;*/
-      width: 30%;
-      
-  }
+.header .text-building {
+    margin: 0 17%;
+    /*margin: 0% 5% 5% 17%;*/
+    width: 30%;
+}
 
-  /***COLLABORATION SECTION***/
+/***COLLABORATION SECTION***/
 
 .center-img {
     margin: 60px auto;
@@ -156,21 +151,21 @@
     overflow: auto;
 }
 
-.collaboration img{
+.collaboration img {
     width: 50%;
     float: left;
 }
 
-.collaboration img{
+.collaboration img {
     width: 45%;
     float: left;
-    margin-right: 5%; 
+    margin-right: 5%;
 }
 
 .collaboration .text-collaboration {
     float: right;
     width: 45%;
-    margin-left: 5%; 
+    margin-left: 5%;
 }
 
 .text-collaboration li {
@@ -204,75 +199,76 @@
     width: 45%;
 }
 
-  /***PACKAGES SECTION***/
+/***PACKAGES SECTION***/
 
-  .packages-text {
+.packages-text {
     width: 950px;
     margin: 30px auto;
     text-align: center;
-  }
+}
 
-  .packages-text h2 {
-    color: rgb(83, 88, 98);    
-  }
+.packages-text h2 {
+    color: rgb(83, 88, 98);
+}
 
-  .packages-text p {
-      color: rgb(135, 145, 156);
-  }
+.packages-text p {
+    color: rgb(135, 145, 156);
+}
 
-  .service-box {
+.service-box {
     width: 950px;
     text-align: center;
     margin: 60px auto;
     overflow: auto;
-  }
+}
 
-  .service-box a {
+.service-box a {
     text-decoration: none;
     color: rgb(208, 74, 73)
-  }
+}
 
-  .col {
+.col {
     float: left;
-  }
-  
-  .col-3 {
-     width: 30%;
-  }
-  
-  .col-middle {
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-middle {
     margin: 0 5%;
-  } 
+}
 
-  .clearfix {
-      clear: both;
-  }
+.clearfix {
+    clear: both;
+}
 
-  /***BUTTONS***/
-  .button {
+/***BUTTONS***/
+
+.button {
     color: white;
     font-family: 'Source Sans Pro';
-    font-size:1em;
-    letter-spacing:0.3px; 
+    font-size: 1em;
+    letter-spacing: 0.3px;
     text-align: center;
-    text-decoration:none;
+    text-decoration: none;
     display: block;
     width: 150px;
     margin: 10px 0 0 0;
     padding: 10px 20px 10px 20px;
     border: 2px black solid 0.2;
     border-radius: 50px;
-  }
+}
 
-  .red-button {
-      background-color: rgb(203, 56, 55);
-  } 
+.red-button {
+    background-color: rgb(203, 56, 55);
+}
 
-  .yellow-button {
-      background-color: rgb(240, 146, 51);
-      float: left;
-  }
+.yellow-button {
+    background-color: rgb(240, 146, 51);
+    float: left;
+}
 
-  .blue-button {
-      background-color: rgb(49, 68, 88);
-  }
+.blue-button {
+    background-color: rgb(49, 68, 88);
+}
