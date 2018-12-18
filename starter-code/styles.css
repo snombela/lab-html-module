@@ -40,7 +40,7 @@
   nav {
     background-color: #C12127;
     color: rgba(255,255,255,0.8);
-    padding-top: 5px;
+    padding-top: 10px;
     height: 35px;
     
   }
@@ -68,32 +68,59 @@
   }
 
 
-  /***SEARCH BAR***/
-  .search-container-img-npm {
-      width: 80px;
-      margin: 0 7px;
-  }
+/***SEARCH BAR***/
 
-  .search-container-img-bear {
-    width: 40px;
-    margin: 1px auto;
-    
-  }
+.logo-box {
+    float: left;
+    width: 10%;
+    padding: 10px 1% 10px 2%;
+}
 
-  .search-container a {
-      text-decoration: none;
-      color: white;
-  }
+.search-container-img-npm {
+    width: 100%;
+}
 
-  .search-container input {
+.search-box {
+    float: left;
+    width: 70%;
+    padding: 10px 1% 10px 1%;
+}
+
+.search-box input {
     border: white;
     background-color: rgb(31, 82, 111);
     color: white;
     font-size: 20px;
-    width: 80%;
+    width: 100%;
     padding: 15px;
-    margin: 0 5px;
+}
+
+.login-box {
+    float: left;
+    width: 10%;
+    padding: 10px 2% 10px 3%;
   }
+
+.login-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-container {
+    float: left;
+    padding: 15px 0;
+    width: 80%;
+}
+
+.login-image {
+    width: 20%;
+    padding: 2px 0px;
+    float: left;
+}
+
+.search-container-img-bear {
+    width: 40px;
+}
 
   /***HEADER***/
 
@@ -220,8 +247,6 @@
   .clearfix {
       clear: both;
   }
-
-
 
   /***BUTTONS***/
   .button {
